@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   sendButton.addEventListener("click", function () {
     const messageText = messageInput.value.trim(); // Get message text from input
     if (messageText !== "") {
-      const message = { sender: "User", text: messageText }; // Create message object
+      const message = { sender: "Visitor", text: messageText }; // Create message object
       displayMessage(message); // Display the message in the chat
       messageInput.value = ""; // Clear the input field
     }
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
   sendMessageAfterLogin();
 
   // Fetch and display chat messages
-  fetch("messages.json") // Update the path to your JSON file
+  fetch("ChatEntryUtility/messages.json") // Update the path to your JSON file
     .then((response) => response.json())
     .then((data) => {
       let index = 0;
