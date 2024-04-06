@@ -1,0 +1,124 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222; /* Set background color to dark */
+  color: #ddd; /* Set text color to light */
+}
+
+#chat-container {
+  max-width: 600px;
+  margin: 0 auto; /* Center the chat container horizontally */
+  padding: 20px;
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 5px;
+  background-color: #333; /* Darker background color */
+  overflow-y: auto;
+  height: 400px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 12px; /* Set the font size for the time */
+  color: #999; /* Lighter time color */
+}
+
+.text {
+  display: block; /* Make the message text appear on a new line */
+  color: #ddd; /* Set text color to light */
+}
+
+#chat-box {
+  max-width: 600px;
+  margin: 0 auto; /* Center the chat box horizontally */
+  text-align: center; /* Center the contents of the chat box */
+  padding: 20px 0; /* Add top and bottom padding */
+  border-bottom: 1px solid #444; /* Darker border color */
+  background-color: #333; /* Darker background color */
+}
+
+#message-input {
+  width: 70%; /* Set the width of the input field */
+  padding: 10px;
+  margin-right: 10px;
+  color: #ddd; /* Set text color to light */
+  background-color: #444; /* Darker background color */
+  border: 1px solid #666; /* Darker border color */
+}
+
+#send-button {
+  padding: 10px 20px;
+  background-color: #484c51; /* Blue send button */
+  color: white; /* Light text color */
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+/* Center align the login container */
+.login-container {
+  text-align: center;
+}
+
+/* Style the login form */
+.login-form {
+  max-width: 300px; /* Set max width for better readability */
+  margin: 0 auto; /* Center align the form */
+  padding: 20px; /* Add padding for better visual appearance */
+  background-color: #282828; /* Set background color to light grey */
+  border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+/* Style the input container */
+.input-container {
+  margin-bottom: 20px; /* Add spacing between input elements */
+}
+
+/* Style the label */
+.input-container label {
+  display: block; /* Display the label as a block element */
+  margin-bottom: 5px; /* Add spacing below the label */
+}
+
+/* Style the password input */
+.password-input,
+.login-button {
+  width: 100%; /* Set the width of the input/button to fill the container */
+  padding: 10px; /* Add padding for better visual appearance */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  box-sizing: border-box; /* Include padding and border in the input/button's total width */
+  background-color: #575757; /* Set background color to grey */
+}
+
+/* Style the login button */
+.login-button {
+  background-color: #393939; /* Set background color to dark grey */
+  color: #fff; /* Set text color to white */
+  cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+/* Change button color on hover */
+.login-button:hover {
+  background-color: #777; /* Darken background color on hover */
+}
+
+#error404 {
+  max-width: 800px;
+  margin: 0 auto; /* Center the chat box horizontally */
+  text-align: center; /* Center the contents of the chat box */
+  padding: 60px 0; /* Add top and bottom padding */
+  border-bottom: 1px solid #444; /* Darker border color */
+  background-color: #333; /* Darker background color */
+}

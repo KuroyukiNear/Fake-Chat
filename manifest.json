@@ -1,0 +1,15 @@
+{
+  "name": "Fake Chat",
+  "short_name": "FChat",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#292929",
+  "background_color": "#292929"
+}
